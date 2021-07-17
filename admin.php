@@ -262,9 +262,10 @@ if($pass==null)
 
 if(count($errors) == 0)
 {
-   if($uname=='padma'&&$pass=='denni')
+   if($uname=='*****'&&$pass=='*****')
    {
-
+//Username and password is confidential so use your own username and password
+//just give some username and pasword in tha place of ****
     $_SESSION['name']=$uname;
     echo ("<script LANGUAGE='JavaScript'>
     window. alert('Succesfully logged in');
